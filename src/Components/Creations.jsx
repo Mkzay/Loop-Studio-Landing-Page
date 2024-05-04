@@ -15,7 +15,7 @@ const Creations = () => {
             src="Images/mobile/image-deep-earth.jpg"
             alt="deep-earth-image"
           />
-          <p className="uppercase text-white text-xl font-light font-josefin absolute top-[92rem] left-10">
+          <p className="uppercase text-white text-xl font-light font-josefin absolute top-[92rem] left-10 lg:hidden">
             deep <br></br> earth
           </p>
         </div>
@@ -24,7 +24,7 @@ const Creations = () => {
             src="Images/mobile/image-night-arcade.jpg"
             alt="deep-earth-image"
           />
-          <p className="uppercase text-white text-xl font-light font-josefin absolute top-[102rem] left-10">
+          <p className="uppercase text-white text-xl font-light font-josefin absolute top-[102rem] left-10 lg:hidden">
             night <br></br> arcade
           </p>
         </div>
@@ -33,7 +33,7 @@ const Creations = () => {
             src="Images/mobile/image-soccer-team.jpg"
             alt="deep-earth-image"
           />
-          <p className="uppercase text-white text-xl font-light font-josefin absolute top-[110rem] left-10">
+          <p className="uppercase text-white text-xl font-light font-josefin absolute top-[110rem] left-10 lg:hidden">
             soccer <br></br> team vr
           </p>
         </div>
