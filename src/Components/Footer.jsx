@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-12 py-16 px-10 text-white font-alata w-full bg-black -z-50 lg:flex-row lg:justify-between lg:px-36">
-      <div className="flex flex-col items-center gap-5 lg:items-start">
+    <div className="flex flex-col items-center justify-center gap-12 py-16 px-10 text-white font-alata w-full bg-black -z-50 md:flex-row md:justify-between md:px-36">
+      <div className="flex flex-col items-center gap-5 md:items-start">
         <h1 className="font-normal text-white text-3xl">loopstudios</h1>
-        <ul className="flex flex-col items-center gap-5 font-normal text-base lg:flex-row lg:gap-8">
+        <ul className="flex flex-col items-center gap-5 font-normal text-base md:flex-row lg:gap-8">
           <li className="block hover:border-b-2 hover:border-white hover:pb-1 cursor-pointer">About</li>
           <li className="block hover:border-b-2 hover:border-white hover:pb-1 cursor-pointer">Careers</li>
           <li className="block hover:border-b-2 hover:border-white hover:pb-1 cursor-pointer">Events</li>
@@ -11,7 +11,7 @@ const Footer = () => {
           <li className="block hover:border-b-2 hover:border-white hover:pb-1 cursor-pointer">Support</li>
         </ul>
       </div>
-      <div className="flex flex-col items-center gap-4 lg:items-end">
+      <div className="flex flex-col items-center gap-4 md:items-end">
         <ul className="flex gap-5">
           <li className="block hover:border-b-2 hover:border-white hover:pb-1 cursor-pointer">
             <img src="Images/icon-facebook.svg" alt="facebook icon" />

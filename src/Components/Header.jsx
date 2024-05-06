@@ -10,7 +10,7 @@ const Header = () => {
       <h1 className="font-alata font-normal text-white text-2xl">
         loopstudios
       </h1>
-      <button onClick={toggleMenu} className="lg:hidden">
+      <button onClick={toggleMenu} className="md:hidden">
         <img src="Images/icon-hamburger.svg" alt="menu icon" />
       </button>
 
@@ -19,7 +19,7 @@ const Header = () => {
           openMenu
             ? "translate-x-0 transition-transform"
             : "translate-x-full transition-transform "
-        } lg:hidden flex flex-col gap-28 fixed bg-black w-full h-screen top-0 left-0 right-0 text-white font-alata py-8 px-5 z-100`}
+        } lg:hidden flex flex-col gap-28 fixed bg-black w-full h-screen top-0 left-0 right-0 text-white font-alata py-8 px-5 z-50`}
       >
         <div className="flex items-center justify-between">
           <h1 className="font-normal text-3xl">loopstudios</h1>
@@ -36,7 +36,7 @@ const Header = () => {
         </ul>
       </div>
 
-      <div className="hidden lg:flex">
+      <div className="hidden md:flex">
         <ul className="flex text-white text-alata text-base font-normal gap-10">
           <li className="block hover:border-b-2 hover:border-white hover:pb-1 cursor-pointer">
             About
